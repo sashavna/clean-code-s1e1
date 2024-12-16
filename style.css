@@ -40,7 +40,7 @@ ul {
   padding: 0px;
 }
 li, 
-h3 {
+h2 {
   list-style: none;
 }
 input,
@@ -149,5 +149,9 @@ button.delete .button-img:hover {
 }
 
 .list-item.edit-mode .label {
+  display: none;
+}
+
+.hidden {
   display: none;
 }
